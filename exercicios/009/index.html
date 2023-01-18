@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>Citações e códigos</title>
+    <style>
+        abbr {
+            color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatações</h1>
+    <h2>código fonte</h2>
+    <p>o comando<code> document.getElmentById('teste')</code> é escrito em JavaScripty</p>
+    <!-- deixar a mesma largura, fonte mono espaçada para ler código -->
+    <pre>
+        <code>
+            var str = 'Terminal Root';
+
+                if(str.match(/Root/)){
+                document.write('Encontrou');
+            }else{
+                document.write('Palavra Não Encontrada');
+    }
+        </code>
+    </pre>
+    <!-- a tag PRE deixa o texto do jeito que ele é, com os espaços das colunas.  -->
+    <h2>Citações</h2>
+    <p>como diria o teu pai, <q>é isso mesmo Patricki ahaha</q> </p>
+    <!-- o Q significa as aspas quando tem a citação -->
+    <h2>Citações completas</h2>
+    <p>segundo Jhon Duckett em seu livro:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Beginning_Web_Programming_with_HTML_XHTM/mwrf1EMOcskC?hl=pt-BR&gbpv=0">
+        What is this book about?
+Beginning Web Programming with HTML, XHTML, and CSS teaches you how to write Web pages using HTML, XHTML, and CSS. It follows standards-based principles, but also teaches readers ways around problems they are likely to face using (X)HTML.
+
+While XHTML is the "current" standard, the book still covers HTML because many people do not yet understand that XHTML is the official successor to HTML, and many readers will still stick with HTML for backward compatibility and simpler/informal Web pages that don't require XHTML compliance.
+
+The book teaches basic principles of usability and accessibility along the way, to get users into the mode of developing Web pages that will be available to as many viewers as possible from the start. The book also cover...
+    </blockquote>
+    <!-- realmente faz uma citação -->
+    <h2>abreviaçoes</h2>
+    <p>estou estudando <abbr title="HipperText Murkup Linguage">HTML</abbr> e <abbr title="Cascade Style Sheets">CSS</abbr>, i like this</p>
+    <h2>texto invertido</h2>
+    <p><bdo dir="rtl">Que isso junim dos corre slk essa lombra é massa</bdo></p>
+    <!-- literalmente inverte -->
+</body>
+</html>

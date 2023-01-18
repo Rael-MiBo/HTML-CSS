@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+h1, h2, p{
+    font-family: 'Padyakke Expanded One';
+    font-weight: bolder;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* regra começa com @ */
+body {
+    background-color: lightcoral;
+    font-family: cursive;
+    font-size: 12pt;
+    }
+    h1{
+        color: aqua;
+    }
+    h2{
+        color: aquamarine;
+    }
+    p{
+        color: beige;
+    }
+    p.parg{
+        text-align: right;
+    }
+    a {
+        color: bisque;
+    }

@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: violet;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:visited{
+    color: violet;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+}
+/* 
+    PseudoClasses é utilizado 2 pontos ' :: '
+*/
+.especial{
+    background-color: rgba(218, 162, 218, 0.53) ;
+    
+}
+.especial::before{
+    content: '\2192';
+    text-decoration: none;
+    font-weight: lighter;
+    color: aqua;
+}
+.especial::after{
+    content: '\2190';
+    text-decoration: none;
+    font-weight: lighter;
+    color: aqua;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Love';
+    src: url('fonts/LoveLadyPersonalUse.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+    /* TIPOS DE FORMATOS    
+
+    opentype (otf)
+    truetype  (ttf)
+    embedded-opentype
+    truetype-aat
+    svg
+
+    */
+}
+body{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: 'Love' ;
+    font-size: 3em;
+    font-weight: normal;
+}

@@ -1,0 +1,30 @@
+/*
+ Id = #
+class = . 
+*/
+
+body{
+    background-color: coral;
+}
+h1{
+    color: #9c4405 ;
+}
+h1#first{
+    color: #491f01;
+    text-align: center;
+}
+h2{
+    color: rgb(165, 42, 75);
+}
+.basico{
+    color: green;
+}
+.intermediario{
+    color: yellow;
+}
+.avancado{
+    color: red;
+}
+p{
+    color: rgb(95, 25, 0);
+}

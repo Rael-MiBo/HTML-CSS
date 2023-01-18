@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex de hover</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: aqua;
+        }
+        div{
+            height: 20px;
+            width: 190px;
+        }
+        div > p {
+            display: none;
+        }
+        /*
+         > igual a filho 
+         */
+         div:hover > p{
+            display: block;
+            color: black;
+            background-color: red;
+         }
+        div:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>ex de hover</h1>
+    <p>passe o mouse aqui</p>
+    <div>        
+        passe o mouse sobre mim
+        <p>texto escondido</p>
+    </div>
+</body>
+</html>
