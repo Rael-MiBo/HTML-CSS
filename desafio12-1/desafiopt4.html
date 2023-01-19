@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media das notas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+        }
+        th {
+            background-color: gray;
+            border: 1px solid black;
+            padding: 10px;
+            width: 100px;
+            height: 20px;
+        }
+        td.materia{
+            height: 25px;
+        } 
+        th.ll{
+            background-color: white;
+        }
+
+        /* OBS:
+        
+            Eu poderia ter colocado a Class no Tr para mudar a cor de branco para cinza, porém só depois de feito que eu fui ver
+        
+        */
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2" scope="col">Area</th>
+            <th rowspan="2" scope="col">Disciplina</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="col">Média</th>
+        </tr>
+        <tr>
+            <th>nota 1</th>
+            <th> nota 2</th>
+        </tr>
+        <tr>
+            <th rowspan="4" class="ll" scope="rowgroup">Exatas</th>
+            <td class="materia" >Matematica</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+        </tr>
+        <tr>
+            <td class="materia">Física</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+        </tr>
+        <tr>
+            <td class="materia">Quimica</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+        </tr>
+        <tr>
+            <td class="materia">Biologia</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4" class="media" scope="row">Média das exatas</th>
+            <th class="media">0.0</th>
+        </tr>
+        <tr>
+            <th rowspan="2" class="ll" scope="rowgroup">
+                Humanas
+            </th>
+            <td class="materia">Geografia</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+        </tr>
+        <tr>
+            <td class="materia">Hisória</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+            <td class="materia">0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4" scope="row">Média de Humanas</th>
+            <th>0.0</th>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+</body>
+</html>
