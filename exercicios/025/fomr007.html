@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="#" method="post" autocomplete="on">
+       <p>
+        <label for="iest">Estado:</label>
+        <select name="estado" id="iest">
+
+                <option value="">---Escola---</option>
+            <optgroup label="Centro Oeste">
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso do Norte</option>
+                <option value="GO">Goiás</option>
+            </optgroup>
+
+            <optgroup label="Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+        </select>
+       </p>
+
+       <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="profi" id="iprof" list="proflist">
+        <datalist id="proflist">
+            <option >pq o guanabara escolheu ser professor e nao ganhar nada e nao ser dev e ganha 20k mes</option>
+            <option >desenvolvedor</option>
+            <option >Professor</option>
+        </datalist>
+       </p>
+       <p>
+        <label for="imsg">Mensagem:</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+       </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
