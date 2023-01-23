@@ -7,8 +7,9 @@
     <title>menu responsivo</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.css">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Menu</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
@@ -43,8 +44,16 @@
             else {
                 itens.style.display = 'block'
             }
-            
         }
+
+        function mudoutamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        
     </script>
 </body>
 </html>
